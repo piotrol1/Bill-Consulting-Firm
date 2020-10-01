@@ -1,5 +1,11 @@
 Here's our footer and menu that we want to use:
 
+
+
+<!-- ====================== FAV ICON ====================== -->
+<link rel="shortcut icon" href="../images/walmart.png"/>
+
+
 <!-- ===================== FOOTER ==================== -->
     <footer class="container">
         <p>&copy; 2020 <img src="images/billConsultingLogo.png" alt="Bill Consulting Company Logo" width="100" height="100"/> </p>
