@@ -5,9 +5,9 @@ body {
 
 footer {
     padding-left: 25px; 
-    margin-top: 10px; 
+    margin-top: 15px;
     color: white; 
-    background-color: blue!important;
+    background-color: #C5D6E3!important;
     font-family: sans-serif
     font-size: 16pt; 
     font-weight: bold;
@@ -26,17 +26,19 @@ hr {
     margin-bottom: 0.5em;
     margin-left: auto;
     margin-right: auto; 
+    
+    
 }
 
 .jumbotron {
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 20px;  
+    margin-bottom: 50px;  
     margin-top:  18px;  
-    background-color: #	#0000FF;  /* blue */
+    background-color: #ECEFF1;  /* blue */
     opacity: 1;
     height: 300px;
-    text-align: left;
+    text-align: center;
 }
 
 
@@ -48,21 +50,22 @@ hr {
 
 /*  =============== Jumbotron Heading 2  ==========================  */
     .jumbotron > .container > .display-3 {
-        color: #FFFFFF;
-        font-family: "Clicker Script", cursive; 
+        color: darkslategray;
+        font-family: "Clicker Script", inherit; 
     }
 .jumbotron > .container > p > .btn-primary {
     color: #fff;
-    background-color: #048703;
-    border-color: #6405b7;
-    color: yellow;
+    background-color: #A3A8AC;
+    border-color: #5EAEE6;
+    color: white;
 } 
 .jumbotron > .container > p > .btn-primary:hover {
     color: #fff;
-    background-color: #6405b7;
-    border-color: #048703;
-    color: yellow;
+    background-color: #5EAEE6;
+    border-color: #5EAEE6;
+    color: white;
 }
+
 /*  ====================================================================== */
 /*  ============== Customize the navigation bar ======================= */
 nav {
@@ -70,21 +73,23 @@ nav {
 }
 /*  ============ override the bg-dark ============ */
 .bg-dark {
-    background-color: blue!important; /* Green */
+    background-color: #5EAEE6!important; /* Green */
 }
 /* Dropdown selected item hover style */
 .dropdown-item:focus, .dropdown-item:hover {
-    background-color: hsl(120, 80%, 90%);
-    color: #155808;
+    background-color: hsl(57, 100%, 68%);
+    color: black;
 }
 /* Search Button */
 .btn-outline-success {
-    color: white;
+    color: black;
     border-color: white;
+    background-color: white;
 } 
     .btn-outline-success:hover {
-        background-color: #90EE90;
-        color: #155808;
+        background-color: white;
+        color: black!important;
+        border-color: darkslategrey;
     }  
 
 /*  ====================================================================== */
@@ -97,7 +102,7 @@ nav {
 .row > div > h2.rowheader  {
     font-family: Impact;
     font-size: 24pt;
-    color: #048703; /* purple #7843e9*/
+    color: darkslategray; /* purple #7843e9*/
 }
 hr~ h2:first-of-type { /*:first-of-type*/
     font-family: Impact;
