@@ -28,7 +28,7 @@ Here's our footer and menu that we want to use:
       </li>
                 
       <li class="nav-item">
-        <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="disabled">Contact Us</a>
+        <a class="nav-link" href="contact.html">Contact Us</a>
       </li>
         
         <li class="nav-item">
