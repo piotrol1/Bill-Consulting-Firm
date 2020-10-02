@@ -9,7 +9,7 @@
     <meta name="Keywords" content="">
     <title>Our Team</title>
     <!-- ******************** Insert the fav icon *********************** -->
-    <link rel="shortcut icon" href="https://getbootstrap.com/docs/4.5/examples/jumbotron/">
+    <link rel="shortcut icon" href="../images/walmart.png"/>
     <!-- =============== Core Bootstrap CSS =================== -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <!-- =============== Custom style, from site template =================== -->
@@ -18,44 +18,42 @@
 <style>
     h1 {
     padding-left: 25px;
+    text-align: center;
     }
     
     h2 {
     color: black !important;
     }
     
-   p {
-   padding-left: 25px;
-   }  
+    h3 {
+    text-align: center;
+    }
+    
+    p {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    }  
+    
+     p2 {
+    padding-left: 25px;
+    }  
            
    footer {
-   border-color: white !important;
-   background-color: white !important;
-   color: black;
-   text-decoration: none;
-   }
-             #nav {
-    background-color: white; /* White */
-                 color: purple;
-                 text-decoration-color: red;
-                 border-color: aqua;
-                 outline-color: orange;
-} 
- 
-           
+    border-color: white !important;
+    color: black;
+    text-decoration: none;
+    }
 </style>
-               
-        
+             
         
         
     <!-- =============== Load an external font =================== -->
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet"> </style>
 
-
-     
 <!-- =============== BODY SECTION =================== --> 
 <body>
-    <!-- ================ MENU =================== -->
+    <!-- ===================== MENU ====================== -->
 <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
         <!-- Logo ----------------------------------->
     <a class="navbar-brand" href="home.html">Walmart</a>
@@ -75,6 +73,10 @@
       <li class="nav-item">
         <a class="nav-link" href="product.html">Product</a>
       </li>
+                
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact Us</a>
+      </li>
         
         <li class="nav-item">
         <a class="nav-link" href="register.html">Register</a>
@@ -84,19 +86,14 @@
         <a class="nav-link" href="login.html">Login</a>
       </li> 
         
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
+<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Other</a>
         <div class="dropdown-menu" aria-labelledby="dropdown01">
-          <a class="dropdown-item" href="our-team.html">Our Team</a>
+          <a class="dropdown-item" href="team.html">Our Team</a>
+          <a class="dropdown-item" href="about.html">About Us</a>
           <a class="dropdown-item" href="error.html">Error</a>
-            
         </div>
       </li>
-        
-      <li class="nav-item">
-        <a class="nav-link" href="contact.html" tabindex="-1" aria-disabled="disabled">Contact Us</a>
-      </li>
-
         
       
     </ul>
@@ -110,37 +107,47 @@
          <!-- ==========================  MAIN CONTENT ====================== -->
      <main>
        <!-- ==========================  JUMBOTRON ====================== -->
-       <!-- Main jumbotron for a primary marketing message or call to action -->
+       <!-- Main jumbotron for primary marketing message -->
           <div class="jumbotron">
             <div class="container">
 
               <h2 class="display-3">The Changelog</h2>
-              <p>Check out what we've done!</p>
+              <p2>Check out what we've done!</p2>
 
             </div>
           </div> 
     <!-- This is a space to write a changelog for what each user has contributed -->
-<h1>Meet our team!</h1>
-<p>Isabella Sebastain: Home and Register pages</p>
+         <h1>Meet our team!</h1><br>
+         <h3>What we've worked on:</h3>
+         
+         <p>Isabella Sebastain: Created the "Home" and "Register" pages.  Made large CSS contributions, and coordinated meeting times for group.</p><br>
 
-<p>Lakyn Piotrowsky: Product and Error pages</p>
+         <p>Lakyn Piotrowsky: Assembled the "Product" and "Error" pages.  Made large CSS contributions, and found images for use within the project.  </p><br>
 
-<p>Lexie:  Contact and Login pages</p>
+         <p>Lexie Markert:  Made the "Contact" and "Login" pages.  Designed Bill Consulting logo.  Also created and communicated information about Zoom meetings.</p><br>
 
-<p>Baden Wackerle: About and Team pages</p>
-    
+         <p>Baden Wackerle: Put together the "About" and "Team" pages.  Maintained central location (github) of code storage and communication. <br> Made small CSS contributions, adjusted code templates for footer and menu.</p>
+         <br><br>
+         
+         
+         <h3>Meeting notes:</h3>
+         <p><strong>9/20/20:</strong>  The primary goal of the meeting was assigning which pages each person should have.  All group members were present, which made deciding which pages each person wanted easy.  We also talked about how we wanted to approach the sitewide CSS file, along with how we wanted to "store" our code for access.</p>
+         
+         <p><strong>9/29/20:</strong> The main goal for meeting was to further develop what we wanted to do for sitewide styling.  In addition, we set a standard footer and menu, as well as helped each other out with the various issues we ran into while creating our pages.</p>
+        
+         <p><strong>10/4/20:</strong> To be continued
+         </p>
          
          
          
          
+<!-- ===================== FOOTER ==================== -->
     <footer class="container">
-
-        <p>&copy; Baden Wackerle, 2020 </p>
-    </footer>
+        <p>&copy; 2020 <img src="images/billConsultingLogo.png" alt="Bill Consulting Company Logo" width="100" height="100"/> </p>
+     </footer>
     
         
-
-
+    </main>
 
       <!-- ==========================  JAVASCRIPTS ========================= -->
        <!-- ========================== Custom =============================== -->
@@ -152,6 +159,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" crossorigin="anonymous"
               integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" ></script>
         
-    </body>
 
+    </body>
 </html>
