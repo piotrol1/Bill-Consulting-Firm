@@ -15,7 +15,7 @@
     <link rel="shortcut icon" href="../Project1/images/walmart.png"/>
 
       
-    <!-- ============================== Login core CSS ==================================== -->
+    <!-- ============================== Brackets core CSS ==================================== -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" rel="stylesheet"/>
  
       
@@ -40,7 +40,8 @@
       }     
     </style>
   </head>
-      
+    
+
       
   <!-- ====================================== MENU =================================================== -->
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
@@ -57,31 +58,31 @@
         <li class="nav-item active">
           <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
         </li>
-        
-        <li class="nav-item active">
-          <a class="nav-link" href="product.html">Product</a>
-        </li>
-                
-        <li class="nav-item active">
-          <a class="nav-link" href="contact.html">Contact Us</a>
-        </li>
-        
-          <li class="nav-item active">
-          <a class="nav-link" href="register.html">Register</a>
-        </li> 
-        
-          <li class="nav-item active">
-          <a class="nav-link" href="login.html">Login</a>
-        </li> 
           
-    <!-- ============================== Dropdown Menu =================================== -->
-    <li class="nav-item dropdown">
+        <!-- ============================== Dropdown Menu =================================== -->
+        <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="about.html" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
           <div class="dropdown-menu" aria-labelledby="dropdown01">
             <a class="dropdown-item" href="team.html">Team</a>
             <a class="dropdown-item" href="error.html">Error</a>
           </div>
-    </li>      
+        </li> 
+          
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="product.html">Product</a>
+        </li>
+        
+        <li class="nav-item active">
+          <a class="nav-link" href="login.html">Login</a>
+        </li> 
+          
+        <li class="nav-item active">
+          <a class="nav-link" href="register.html">Register</a>
+        </li> 
       </ul>
         
       <!-- ================================== Search Button ==================================== -->
@@ -103,8 +104,7 @@
             </div>
           </div> 
           
-          
-        <body class="text-left">
+       
         <form class="form-login">                
           <div class="container">
               <div class="col-md-12">
@@ -114,11 +114,11 @@
                         <h3 class="mycenter">Please login</h3>
                         
                         <form>
-                            <label for="inputEmail" class="sr-only">Email address</label>
-                            <input type="email" id="inputEmail" placeholder="Email address" required autofocus><br>
+                            <label for="inputEmail" class="sr-only" style="box-sizing: border-box; padding: 10px">Email address</label>
+                            <input type="email" id="inputEmail" placeholder="Email address" required autofocus style="margin-bottom: -1px; border-bottom-right-radius: 0; border-bottom-left-radius: 0;"><br>
                             
-                            <label for="inputPassword" class="sr-only">Password</label>
-                            <input type="password" id="inputPassword" placeholder="Password" required>
+                            <label for="inputPassword" class="sr-only" style="box-sizing: border-box; padding: 10px">Password</label>
+                            <input type="password" id="inputPassword" placeholder="Password" required style="margin-bottom: 10px; border-top-left-radius: 0; border-top-right-radius: 0;">
                             
                             <div class="checkbox mb-3">
                                 <label>
@@ -127,9 +127,7 @@
                             </div>
                         </form>
                         <p>
-                            <br>
-                            <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
-                            
+                            <button class="btn btn-primary" style="height: auto; width: auto">Login</button>                            
                         </p>
                     </div>
                   </div>
