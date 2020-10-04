@@ -1,10 +1,11 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
   padding-top: 3.5rem;
 }
 
 footer {
     padding-left: 25px; 
-    margin-top: auto;
+    margin-top: 15px;
     color: white; 
     background-color: #C5D6E3!important;
     font-family: sans-serif
@@ -30,14 +31,17 @@ hr {
 }
 
 .jumbotron {
+    background-image: url("../images/walmartBackground.jpg");
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 50px;  
     margin-top:  18px;  
-    background-color: #ECEFF1;  /* blue */
+    background-color: #243B7B;  /* blue */  /*#ECEFF1*/
     opacity: 1;
     height: 300px;
-    text-align: center;
+    text-align: left;
+
 }
 
 
@@ -49,7 +53,7 @@ hr {
 
 /*  =============== Jumbotron Heading 2  ==========================  */
     .jumbotron > .container > .display-3 {
-        color: darkslategray;
+        color: white;
         font-family: "Clicker Script", inherit; 
     }
 .jumbotron > .container > p > .btn-primary {
