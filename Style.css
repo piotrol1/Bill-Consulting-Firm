@@ -1,11 +1,10 @@
-/* Move down content because we have a fixed navbar that is 3.5rem tall */
 body {
   padding-top: 3.5rem;
 }
 
 footer {
     padding-left: 25px; 
-    margin-top: 15px;
+    margin-top: auto;
     color: white; 
     background-color: #C5D6E3!important;
     font-family: sans-serif
